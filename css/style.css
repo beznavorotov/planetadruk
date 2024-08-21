@@ -1,0 +1,382 @@
+/* Загальні стилі */
+body {
+  font-family: "Roboto", Sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffffff;
+  color: #070707;
+  height: 80px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header .navbar {
+  padding: 20px 5px;
+  z-index: 1000;
+}
+
+header .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+header .navbar-brand  {
+  height: 30px;
+  margin-right: 1rem;
+}
+
+header .navbar-nav .nav-link {
+  color: #050505;
+  
+  font-size: 18x;
+}
+header .navbar-nav .nav-link:hover {
+  color: #ee1f28;
+  font-weight: bold;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  
+}
+
+.logo-text {
+  font-size: 30px;
+  padding-left: 10px;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+}
+
+.logo-text-red {
+  color: #ee1f28;
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 8px;
+}
+
+.logo-text-footer {
+  font-size: 30px;
+  padding-left: 5px;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-about{
+  font-size: 20px;
+}
+
+
+/* offer */
+.offer-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.offer-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.offer-text li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  list-style-type: square;
+}
+
+.offer-image {
+  display: flex;
+  justify-content: center;
+}
+
+.offer-image img {
+  max-width: 100%;
+  height: auto;
+}
+/* offer end*/
+
+
+
+
+
+.services {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+
+
+
+
+/*  */
+
+
+/* equipment */
+.equipment {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+
+/* contact */
+
+
+.contact_info {
+  margin-bottom: 20px;
+}
+
+.contact-icon img {
+  width: 50px;
+  height: 50px;
+}
+.contact-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-details {
+  margin-left: 15px;
+}
+
+.text_title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.img-maps {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  background: #151515;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-logo img {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+footer .social-icons {
+  margin: 1rem 0;
+}
+
+footer .social-icons a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+
+
+footer .list-unstyled a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+footer .contact-info {
+  margin: 1rem 0;
+}
+
+footer .copy {
+  margin-top: 1rem;
+}
+
+
+.our-clients {
+  margin: 2rem 0;
+}
+
+.our-clients h2 {
+  margin-bottom: 2rem;
+}
+
+
+/* кнопака */
+.btn {
+  width: 200px;
+  height: 50px;
+}
+
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 10px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button:link:after,
+a.animated-button:visited:after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
+  color: #FFF;
+  text-shadow: none;
+}
+
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after {
+  height: 450%;
+}
+
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #D24D57;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button.victoria-four {
+  border: 2px solid #D24D57;
+}
+
+a.animated-button.victoria-four:after {
+  background: #D24D57;
+  opacity: .5;
+  -moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+
+a.animated-button.victoria-four:hover:after {
+  opacity: 1;
+  height: 600% !important;
+}
+
+/* кнопка кінець */
+
+
+@media screen and (max-width: 768px) {
+  .m-nav {
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: end;
+  }
+  footer .nav-links {
+    text-align: start;
+    padding-left: 10px;
+  }
+}
+
